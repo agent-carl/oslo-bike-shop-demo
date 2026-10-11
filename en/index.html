@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tråkk Bike Workshop: bike service and repair in Grünerløkka (demo)</title>
+  <meta name="description" content="Bike service, repairs and e-bike help in Grünerløkka, Oslo. Fixed price before we start. Demo project with a fictional business.">
+  <!-- Fictional business: keep the demo out of search results so nobody looks for a shop that does not exist. -->
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://agent-carl.github.io/oslo-bike-shop-demo/en/">
+  <link rel="alternate" hreflang="nb" href="https://agent-carl.github.io/oslo-bike-shop-demo/">
+  <link rel="alternate" hreflang="en" href="https://agent-carl.github.io/oslo-bike-shop-demo/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tråkk Bike Workshop (demo)">
+  <meta property="og:description" content="Bike service and repair in Grünerløkka, Oslo. Demo project with a fictional business.">
+  <meta property="og:url" content="https://agent-carl.github.io/oslo-bike-shop-demo/en/">
+  <meta property="og:locale" content="en_GB">
+  <meta name="theme-color" content="#1f4d3a">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BikeStore",
+    "name": "Tråkk Bike Workshop (fictional demo)",
+    "description": "Demo project. Fictional bike workshop in Grünerløkka, Oslo.",
+    "url": "https://agent-carl.github.io/oslo-bike-shop-demo/en/",
+    "telephone": "+47 000 00 000",
+    "email": "post@example.com",
+    "priceRange": "NOK 249 - NOK 1490",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Eksempelgata 12",
+      "postalCode": "0550",
+      "addressLocality": "Oslo",
+      "addressCountry": "NO"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "10:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "15:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="demo-banner" role="note">
+    Demo project: Tråkk Bike Workshop is a fictional business. This website was built by Ivan as a work sample.
+    <a href="https://agent-carl.github.io/">View portfolio</a>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="./">Tråkk <small>Bike Workshop</small></a>
+      <nav class="nav" aria-label="Main menu">
+        <a href="#services">Services</a>
+        <a href="#prices">Prices</a>
+        <a href="#hours">Opening hours</a>
+        <a href="#book">Book a service</a>
+      </nav>
+      <a class="lang" href="../" hreflang="nb" lang="nb">NO</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Bike workshop in Grünerløkka</span>
+          <h1>Your bike back in shape, the same week.</h1>
+          <p class="lead">Service, repairs and e-bike help. You get a fixed price before we start, and a text message when your bike is ready.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#book">Book a service</a>
+            <a class="btn btn-ghost" href="#prices">See prices</a>
+          </div>
+          <ul class="facts">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Fixed price upfront</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Ready in 1–3 days</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>E-bikes welcome</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 230" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="95" cy="160" r="62"/>
+            <circle cx="305" cy="160" r="62"/>
+            <circle cx="95" cy="160" r="6" fill="currentColor"/>
+            <circle cx="305" cy="160" r="6" fill="currentColor"/>
+            <polyline points="95,160 190,160 165,72 95,160"/>
+            <polyline points="165,72 268,72 190,160"/>
+            <polyline points="268,72 305,160"/>
+            <line x1="150" y1="56" x2="186" y2="56"/>
+            <line x1="165" y1="72" x2="168" y2="56"/>
+            <polyline points="262,52 268,72"/>
+            <polyline points="248,48 262,52 286,44"/>
+            <circle cx="190" cy="160" r="15"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What we can help with</h2>
+          <p>From a flat tyre to a full service. We explain what needs doing and never start work you have not approved.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Service</h3>
+            <p>We check gears, brakes, chain and wheels, then adjust and lubricate. Your bike will feel like new.</p>
+          </article>
+          <article class="card">
+            <h3>Repairs</h3>
+            <p>Flat tyres, a skipping chain, weak brakes, broken spokes and wobbly wheels.</p>
+          </article>
+          <article class="card">
+            <h3>E-bikes</h3>
+            <p>Diagnostics, software updates and service for e-bikes from the most common brands.</p>
+          </article>
+          <article class="card">
+            <h3>Winter ready</h3>
+            <p>Studded tyres, mudguards and lights, so you get around safely when the streets are icy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Prices</h2>
+          <p>Labour at a fixed price. Parts are extra, and you always get the price before we start.</p>
+        </div>
+        <ul class="price-list">
+          <li><span>Flat tyre, inner tube included</span><strong>NOK 299</strong></li>
+          <li><span>Brake adjustment</span><strong>NOK 249</strong></li>
+          <li><span>Basic service</span><strong>NOK 690</strong></li>
+          <li><span>Full service</span><strong>NOK 1,490</strong></li>
+          <li><span>E-bike diagnostics</span><strong>from NOK 490</strong></li>
+          <li><span>Studded tyre fitting</span><strong>NOK 399</strong></li>
+        </ul>
+        <p class="note">Prices are examples in a demo project.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How it works</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="card-num">1</span>
+            <h3>Book a time</h3>
+            <p>Fill in the form below. We reply within one working day with a time and a price estimate.</p>
+          </article>
+          <article class="card">
+            <span class="card-num">2</span>
+            <h3>Drop off your bike</h3>
+            <p>Come by the workshop. We look at the bike together with you and confirm the price.</p>
+          </article>
+          <article class="card">
+            <span class="card-num">3</span>
+            <h3>Pick it up ready</h3>
+            <p>You get a text message when the bike is done. Pay by card or Vipps when you collect it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hours">
+      <div class="wrap two-col">
+        <div>
+          <h2>Opening hours</h2>
+          <table class="hours">
+            <tr><th scope="row">Monday–Friday</th><td>10–18</td></tr>
+            <tr><th scope="row">Saturday</th><td>11–15</td></tr>
+            <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+          </table>
+        </div>
+        <div>
+          <h2>Find us</h2>
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Eksempelgata 12, 0550 Oslo<br><small>Fictional address</small></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg>
+              <span>post@example.com</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>We answer emails within one working day</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt faq">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Questions and answers</h2>
+        </div>
+        <details>
+          <summary>Do I need to book a time?</summary>
+          <p>For a service or bigger repairs, yes. We can often fix a flat tyre the same day without booking.</p>
+        </details>
+        <details>
+          <summary>How long does a service take?</summary>
+          <p>Usually 1–3 days, depending on the season and whether we need to order parts.</p>
+        </details>
+        <details>
+          <summary>Do you repair e-bikes?</summary>
+          <p>Yes. We diagnose motor, battery and display issues, and service the rest of the bike.</p>
+        </details>
+        <details>
+          <summary>What if the repair costs more than agreed?</summary>
+          <p>We contact you before doing anything else. You never pay for work you have not approved.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="book">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Book a service</h2>
+          <p>Tell us briefly what is wrong, and we will get back to you with a time and a price.</p>
+        </div>
+        <form class="form" id="booking" novalidate data-lang="en">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="bike">Type of bike</label>
+            <select id="bike" name="bike">
+              <option>Regular bike</option>
+              <option>E-bike</option>
+              <option>Kids' bike</option>
+              <option>Other</option>
+            </select>
+            <span class="field-error"></span>
+          </div>
+          <div class="field">
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option>Service</option>
+              <option>Repair</option>
+              <option>E-bike</option>
+              <option>Winter ready</option>
+            </select>
+            <span class="field-error"></span>
+          </div>
+          <div class="field">
+            <label for="date">Preferred date</label>
+            <input id="date" name="date" type="date">
+            <span class="field-error"></span>
+          </div>
+          <div class="field field-full">
+            <label for="message">What does the bike need?</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field-full">
+            <button class="btn btn-primary" type="submit">Send request</button>
+          </div>
+          <p class="form-status" role="status" tabindex="-1"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Tråkk Bike Workshop (fictional business). Demo built by <a href="https://agent-carl.github.io/">Ivan</a>.</p>
+    </div>
+  </footer>
+
+  <script src="../form.js" defer></script>
+</body>
+</html>
